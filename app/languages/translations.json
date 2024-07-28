@@ -6,17 +6,17 @@
 
         "processing":{
             "english": "↺ Processing your request. Please wait a moment."
-    
+
         },
 
         "loggingIn":{
             "english": "⟳ Logging in"
-    
+
         },
 
         "refreshing":{
             "english": "⟳ Refreshing account"
-    
+
         },
 
         "loggedInAs":{
@@ -53,12 +53,12 @@
 
         "refreshed":{
             "english": "💫 Successfully refreshed the token of your account. Now, you can use the bot."
-    
+
         },
 
         "token":{
             "english": "🔑 Token for <b>{}</b> is <code>\n\n{}</code>\n\n🔒 <b>This token can be used to access your account. Do not share it with others unless you know what you are doing.</b>"
-    
+
         },
 
         "getFreeSpace":{
@@ -77,37 +77,37 @@
 
         "accountRemoved":{
             "english": "➖ Account removed successfully."
-    
+
         },
 
         "captchaFailled":{
             "english": "⚠️ Captcha verification failed. Please try again."
-    
+
         },
 
         "incorrectPassword":{
             "english": "⚠️ The email and password do not match. Please try again."
-    
+
         },
 
         "incorrectDbPassword":{
             "english": "⚠️ The email and password do not match. Please update your password by clicking /password and try again."
-    
+
         },
 
         "unknownError":{
             "english": "⚠️ Unknown error occured. If you are seeing this error repeatedly, please logout your account and login again."
-    
+
         },
 
         "warningTooFast":{
             "english": "🛑 You are seding messages too fast. Please slowdown or you may get banned."
-    
+
         },
 
         "blockedTooFast":{
             "english": "⛔ You have been banned for 5 minutes for spamming the bot."
-    
+
         },
 
         "addAccount":{
@@ -136,17 +136,17 @@
 
         "deletingFolder":{
             "english": "❌  Deleting folder"
-    
+
         },
 
         "deletedSuccessfully":{
             "english": "🙌  The selected item is deleted successfully."
-    
+
         },
 
         "cancelled":{
             "english": "❌ Cancelled"
-    
+
         },
 
         "collectingInfo":{
@@ -199,7 +199,7 @@
 
         "fileNotFound":{
             "english": "❌ File not found."
-        }, 
+        },
 
         "fetchingLink":{
             "english": "🪝 Fetching download link"
@@ -236,7 +236,7 @@
 
         "somethingWrong":{
             "english": "⚠️ Something went wrong. Please try again later or contact the developer."
-    
+
         },
 
         "noPermission":{
@@ -294,60 +294,60 @@
         "support": {
             "english": "<b>{}</b>\n\nThank you for your wish to contribute. Donate any amount to keep this service alive and to give me a motivation to add new features.😇\n\n🐛 To report bugs or to request a new feature, join our discussion chat, and discuss it there."
         },
-        
+
         "files":{
             "english": "Files:"
-    
+
         },
 
         "link":{
             "english": "Link:"
-    
+
         },
 
         "delete":{
             "english": "Delete:"
-    
+
         },
 
         "cancel":{
             "english": "Cancel:"
-    
+
         },
 
         "size":{
             "english": "Size:"
-    
+
         },
 
         "torrentQuality":{
             "english": "Torrent Quality:"
-    
+
         },
 
         "connectedTo":{
             "english": "Connected To:"
-    
+
         },
 
         "seeders":{
             "english": "Seeders:"
-    
+
         },
 
         "leechers":{
             "english": "Leechers:"
-    
+
         },
 
         "downloadingFrom":{
             "english": "Downloading From:"
-    
+
         },
 
         "uploadingTo":{
             "english": "Uploading To:"
-    
+
         },
 
         "uploadedOn": {
@@ -356,40 +356,40 @@
 
         "rate":{
             "english": "Rate:"
-    
+
         },
 
         "percentage":{
             "english": "Percentage:"
-    
+
         },
-        
+
         "username":{
-            "english": "Username:"
+            "english": "Username"
         },
 
         "email":{
-            "english": "Email:"
+            "english": "Email"
         },
 
         "totalBandwidthUsed":{
-            "english": "Total bandwidth used:"
+            "english": "Total bandwidth used"
         },
 
         "country":{
-            "english": "Country:"
+            "english": "Country"
         },
 
         "inviteLink":{
-            "english": "Invite Link:"
+            "english": "Invite Link"
         },
 
         "inviteRemaining":{
-            "english": "Invite Remaining:"
+            "english": "Invite Remaining"
         },
 
         "inviteAccepted":{
-            "english": "Invite Accepted:"
+            "english": "Invite Accepted"
         }
     },
 
@@ -397,165 +397,165 @@
         "login": {
             "english": "👤 Login"
         },
-    
+
         "done": {
             "english": "✅ Done"
         },
-    
+
         "signup":{
             "english": "➕ Sign up"
         },
-    
+
         "clickHereBtn":{
             "english": "👉 Click here"
         },
-    
+
         "refresh":{
             "english": "🔄 Refresh"
         },
-    
+
         "credentials":{
             "english": "📒 Credentials"
         },
-    
+
         "credentialsNotFound":{
             "english": "⚠️ Login credential not found."
         },
-    
+
         "add":{
             "english": "➕ Add Account"
-    
+
         },
-    
+
         "removeAccount":{
             "english": "➖ Logout"
-    
+
         },
-    
+
         "cancelDownload":{
             "english": "❌ Cancel download"
-       
+
         },
-    
+
         "cancel":{
             "english": "❌ Cancel"
-       
+
         },
-    
+
         "openInPlayer":{
             "english": "▶️ Open in media player"
         },
-    
+
         "vlc":{
             "english": "VLC"
         },
-    
+
         "m3u":{
             "english": "M3U"
         },
-    
+
         "xspf":{
             "english": "XSPF"
         },
-    
+
         "loginWithEmail": {
             "english": "📧 Login with email/password"
         },
-    
+
         "authorizeWithDevice": {
             "english": "📱 Authorize with device (Recommended)"
         },
-    
+
         "getLink":{
             "english": "🔗 Download link"
         },
-    
+
         "openInBrowser":{
             "english": "🌐 Open in browser"
         },
-    
+
         "showFiles":{
             "english": "📂 Show files"
         },
-    
+
         "fileManager":{
             "english": "📂 File Manager"
-    
+
         },
-    
+
         "delete":{
             "english": "🗑 Delete"
-    
+
         },
-    
+
         "activeTorrents":{
             "english": "⌛ Active Torrents"
-        
+
         },
-    
+
         "wishlist":{
             "english": "⭐ Wishlist"
-        
+
         },
-    
+
         "account":{
             "english": "👤 Account"
-        
+
         },
-    
+
         "switch":{
             "english": "🔃 Switch"
-        
+
         },
-    
+
         "settings":{
             "english": "⚙️ Settings"
-        
+
         },
-    
+
         "help":{
             "english": "⁉️ Help"
-        
+
         },
-    
-        "support":{ 
+
+        "support":{
             "english": "🎁 Support"
-        
+
         },
-    
-        "donate":{ 
+
+        "donate":{
             "english": "☕ Donate"
-        
+
         },
-    
+
         "joinChannel": {
             "english": "📢 Channel"
         },
-    
+
         "joinDiscussion": {
             "english": "🗣️ Group Chat"
         },
-    
+
         "youtube": {
             "english": "📺 YouTube"
         },
-    
+
         "followOnGithub": {
             "english": "👨‍💻 Follow on GitHub"
         },
-    
+
         "verify": {
             "english": "✅ Verify"
         },
-    
+
         "yes": {
             "english": "✅ Yes"
         },
-    
+
         "no": {
             "english": "❌ No"
         },
-    
+
         "backBtn": {
             "english": "🔙 Back"
         }

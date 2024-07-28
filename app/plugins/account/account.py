@@ -46,7 +46,8 @@ async def account(Client: Client, message: types.Message):
     buttons = [
         [
             types.InlineKeyboardButton(
-                Client.language.get_button_text("removeAccount"), "logout"
+                Client.language.get_button_text("removeAccount"),
+                callback_data=f"logout_{account_setting.get('user_id')}",
             )
         ]
     ]

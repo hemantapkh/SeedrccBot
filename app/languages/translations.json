@@ -1,0 +1,563 @@
+{
+    "general_texts": {
+        "greet":{
+            "english": "👋 Welcome to the seedr bot."
+        },
+
+        "processing":{
+            "english": "↺ Processing your request. Please wait a moment."
+    
+        },
+
+        "loggingIn":{
+            "english": "⟳ Logging in"
+    
+        },
+
+        "refreshing":{
+            "english": "⟳ Refreshing account"
+    
+        },
+
+        "loggedInAs":{
+            "english": "💫 Successfully logged in as {}."
+        },
+
+        "enterEmail":{
+            "english": "✉️ Enter your account email address."
+        },
+
+        "enterEmailRepeat":{
+            "english": "❗Invalid email address. Please enter a account email address."
+        },
+
+        "wishlistNotFound":{
+            "english": "❗Wishlist not found."
+        },
+
+        "enterPassword":{
+            "english": "🔑 Enter your account password."
+        },
+
+        "enterPasswordFor":{
+            "english": "🔑 Enter your account password for <b>{}</b>."
+        },
+
+        "storePassword?":{
+            "english": "<b>🔑Do you want to store your account password in our database?</b> Storing the password will give the ability to the bot to regenerate your account token once it expires."
+        },
+
+        "clickToLogin":{
+            "english": "Click the button below to login your account with the following credintals.\n\n✉️ Email: <code>{}</code>\n🔑 Password: <code>{}</code>"
+        },
+
+        "refreshed":{
+            "english": "💫 Successfully refreshed the token of your account. Now, you can use the bot."
+    
+        },
+
+        "token":{
+            "english": "🔑 Token for <b>{}</b> is <code>\n\n{}</code>\n\n🔒 <b>This token can be used to access your account. Do not share it with others unless you know what you are doing.</b>"
+    
+        },
+
+        "getFreeSpace":{
+            "english": "✨ Get a chance to add <b>free 2GB space</b> in your seedr account. Your referral link will be shown to other users and you will be benifited when someone signup using your link. To get in, follow us on GitHub and click the button below to verify."
+        },
+
+        "thanksGithub":{
+            "english": "✨ Thanks for the follow. Your referral link will be shown to other users and you will earn 0.5 GB extra space for the first four times someone signup using your link.\n\n<b>Note:</b> You must have invites remaining in your account. You can see your invite status in the account menu."
+
+        },
+
+        "ghNotFollowed":{
+            "english": "🥺 This feature is only available to our GitHub followers. Please follow us on GitHub and click on the verify button to continue."
+
+        },
+
+        "accountRemoved":{
+            "english": "➖ Account removed successfully."
+    
+        },
+
+        "captchaFailled":{
+            "english": "⚠️ Captcha verification failed. Please try again."
+    
+        },
+
+        "incorrectPassword":{
+            "english": "⚠️ The email and password do not match. Please try again."
+    
+        },
+
+        "incorrectDbPassword":{
+            "english": "⚠️ The email and password do not match. Please update your password by clicking /password and try again."
+    
+        },
+
+        "unknownError":{
+            "english": "⚠️ Unknown error occured. If you are seeing this error repeatedly, please logout your account and login again."
+    
+        },
+
+        "warningTooFast":{
+            "english": "🛑 You are seding messages too fast. Please slowdown or you may get banned."
+    
+        },
+
+        "blockedTooFast":{
+            "english": "⛔ You have been banned for 5 minutes for spamming the bot."
+    
+        },
+
+        "addAccount":{
+            "english": "👥 If you don't have a seedr account, click the <b>➕ Sign up</b> button to create a new account. After creating an account, choose any of the methods below to login."
+        },
+
+        "authorize": {
+            "english": "🛡️ <b>Please follow the instructions to authorize your account</b>\n\n• Go to https://seedr.cc/devices\n• Login your account if not logged in\n• Paste the following code (Click to copy) \n\n<b>CODE: <code>{}</code></b>\n\n• Click the <b>✅ Done</b> button after completion."
+        },
+
+        "cancellingDownload":{
+            "english": "❌ Cancelling download"
+        },
+
+        "cancelledSuccessfully":{
+            "english": "🙌 The selected download is cancelled."
+        },
+
+        "removingFile":{
+            "english": "❌ Removing file"
+        },
+
+        "removedSuccessfully":{
+            "english": "🙌 The selected file is removed successfully from the folder."
+        },
+
+        "deletingFolder":{
+            "english": "❌  Deleting folder"
+    
+        },
+
+        "deletedSuccessfully":{
+            "english": "🙌  The selected item is deleted successfully."
+    
+        },
+
+        "cancelled":{
+            "english": "❌ Cancelled"
+    
+        },
+
+        "collectingInfo":{
+            "english": "🔄 Collecting torrent information"
+        },
+
+        "torrentAddedSuccessfully":{
+            "english": "🙌 The torrent is added successfully to the download queue. Please see the status of the torrent in /active torrent list or in /files manager."
+        },
+
+        "alreadyDownloading":{
+            "english": "🥴 The torrent is already downloading. Please see the status in active torrents list or by clicking /active."
+        },
+
+        "downloadFinishedIn":{
+            "english": "<code>🥂 Torrent downloaded successfully [{}]</code>"
+        },
+
+        "collectingSeeds":{
+            "english": "🔄 Collecting seeds"
+        },
+
+        "delayWhileCollectingSeeds":{
+            "english": "😴 Taking too much time to collect seeds. Please see the status in active torrents list or by clicking /active."
+        },
+
+        "delayWhileDownloading":{
+            "english": "😴 Taking too much time to download. Please see the status in active torrents list or by clicking /active."
+        },
+
+        "delayWhileCopying":{
+            "english": "😴 Taking too much time to copy the torrent. Please see the status in active torrents list or by clicking /active."
+        },
+
+        "copyingToFolder":{
+            "english": "🔄 Copying to folder"
+        },
+
+        "noPlayableMedia":{
+            "english": "⚠️ This folder doesn't contain any playable media."
+        },
+
+        "wrongTorrentFile": {
+            "english": "⚠️ The provided file is not a valid torrent file."
+        },
+
+        "noTorrentInURL": {
+            "english": "⚠️ No torrent information found on the URL."
+        },
+
+        "fileNotFound":{
+            "english": "❌ File not found."
+        }, 
+
+        "fetchingLink":{
+            "english": "🪝 Fetching download link"
+        },
+
+
+        "fetchingFiles":{
+            "english": "🪝 Fetching files"
+        },
+
+        "notAuthorized":{
+            "english": "⚠️ Please follow the steps properly."
+        },
+
+        "noAccount":{
+            "english": "⚠️ You don't have any account logged in."
+        },
+
+        "noMultipleAccounts":{
+            "english": "⚠️ You don't have multiple accounts to switch."
+        },
+
+        "noEnoughSpace":{
+            "english": "⚠️ You don't have enough space to download this torrent. Please remove your existing files and try adding again from the /wishlist."
+        },
+
+        "invalidMagnet":{
+            "english": "⚠️ Please provide a valid Magnet link or click the button below to search the torrent in the <b>Torrent Hunt Bot</b>."
+        },
+
+        "processFailed":{
+            "english": "⚠️ Failed to process your request. Please try again."
+        },
+
+        "somethingWrong":{
+            "english": "⚠️ Something went wrong. Please try again later or contact the developer."
+    
+        },
+
+        "noPermission":{
+            "english": "⚠️ You don't have permission to execute this command."
+        },
+
+        "parallelDownloadExceed":{
+            "english": "⚠️ Maximum parrallel download exceeds, the torrent is added in your /wishlist. Please cancel the active torrent or wait for the previous download to complete."
+        },
+
+        "noFiles":{
+            "english": "🤷‍♂️ You don't have any files. Please send me the magnet link or torrent file to download."
+        },
+
+        "noActiveTorrents":{
+            "english": "🤝 You don't have any active torrents."
+        },
+
+        "tokenExpired":{
+            "english": "😬 Your account token has expired. Please add your account again."
+        },
+
+        "loginRequired":{
+            "english": "😬 Your cookie for <code>{}</code> has expired. Please refresh your account by clicking the <b>🔄 Refresh</b> button below."
+        },
+
+        "openInMediaCaption": {
+            "english": "Click👆 the icon above and the media shall start playing in your default player.\n\n<code>Install VLC media player for better performance.</code> \n\n<b>⚠️ If failed to play, please choose a different file extension by clicking the button below.</b>"
+        },
+
+        "noResults": {
+            "english": "❌ No results were returned. Please refine your search."
+        },
+
+        "errorFetchingLink": {
+            "english": "⚠️ <code>Error while fetching link ...</code>"
+        },
+
+        "notSubscribed": {
+            "english": "🥺 It seems like you are not subscribed to our channel yet. Due to our limited resources, only our subscriers can use this service. Please support us by subscribing to our channel to use this service."
+        },
+
+        "notSubscribedCallback": {
+            "english": "You are not subscribed yet."
+        },
+
+        "noWishlist": {
+            "english": "🤷‍♂️ You don't have any torrents in your wishlist."
+        },
+
+        "clickForMoreDetails": {
+            "english": "Click for more details."
+        },
+
+        "support": {
+            "english": "<b>{}</b>\n\nThank you for your wish to contribute. Donate any amount to keep this service alive and to give me a motivation to add new features.😇\n\n🐛 To report bugs or to request a new feature, join our discussion chat, and discuss it there."
+        },
+        
+        "files":{
+            "english": "Files:"
+    
+        },
+
+        "link":{
+            "english": "Link:"
+    
+        },
+
+        "delete":{
+            "english": "Delete:"
+    
+        },
+
+        "cancel":{
+            "english": "Cancel:"
+    
+        },
+
+        "size":{
+            "english": "Size:"
+    
+        },
+
+        "torrentQuality":{
+            "english": "Torrent Quality:"
+    
+        },
+
+        "connectedTo":{
+            "english": "Connected To:"
+    
+        },
+
+        "seeders":{
+            "english": "Seeders:"
+    
+        },
+
+        "leechers":{
+            "english": "Leechers:"
+    
+        },
+
+        "downloadingFrom":{
+            "english": "Downloading From:"
+    
+        },
+
+        "uploadingTo":{
+            "english": "Uploading To:"
+    
+        },
+
+        "uploadedOn": {
+            "english": "Uploaded On: "
+        },
+
+        "rate":{
+            "english": "Rate:"
+    
+        },
+
+        "percentage":{
+            "english": "Percentage:"
+    
+        },
+        
+        "username":{
+            "english": "Username:"
+        },
+
+        "email":{
+            "english": "Email:"
+        },
+
+        "totalBandwidthUsed":{
+            "english": "Total bandwidth used:"
+        },
+
+        "country":{
+            "english": "Country:"
+        },
+
+        "inviteLink":{
+            "english": "Invite Link:"
+        },
+
+        "inviteRemaining":{
+            "english": "Invite Remaining:"
+        },
+
+        "inviteAccepted":{
+            "english": "Invite Accepted:"
+        }
+    },
+
+    "button_texts": {
+        "login": {
+            "english": "👤 Login"
+        },
+    
+        "done": {
+            "english": "✅ Done"
+        },
+    
+        "signup":{
+            "english": "➕ Sign up"
+        },
+    
+        "clickHereBtn":{
+            "english": "👉 Click here"
+        },
+    
+        "refresh":{
+            "english": "🔄 Refresh"
+        },
+    
+        "credentials":{
+            "english": "📒 Credentials"
+        },
+    
+        "credentialsNotFound":{
+            "english": "⚠️ Login credential not found."
+        },
+    
+        "add":{
+            "english": "➕ Add Account"
+    
+        },
+    
+        "removeAccount":{
+            "english": "➖ Logout"
+    
+        },
+    
+        "cancelDownload":{
+            "english": "❌ Cancel download"
+       
+        },
+    
+        "cancel":{
+            "english": "❌ Cancel"
+       
+        },
+    
+        "openInPlayer":{
+            "english": "▶️ Open in media player"
+        },
+    
+        "vlc":{
+            "english": "VLC"
+        },
+    
+        "m3u":{
+            "english": "M3U"
+        },
+    
+        "xspf":{
+            "english": "XSPF"
+        },
+    
+        "loginWithEmail": {
+            "english": "📧 Login with email/password"
+        },
+    
+        "authorizeWithDevice": {
+            "english": "📱 Authorize with device (Recommended)"
+        },
+    
+        "getLink":{
+            "english": "🔗 Download link"
+        },
+    
+        "openInBrowser":{
+            "english": "🌐 Open in browser"
+        },
+    
+        "showFiles":{
+            "english": "📂 Show files"
+        },
+    
+        "fileManager":{
+            "english": "📂 File Manager"
+    
+        },
+    
+        "delete":{
+            "english": "🗑 Delete"
+    
+        },
+    
+        "activeTorrents":{
+            "english": "⌛ Active Torrents"
+        
+        },
+    
+        "wishlist":{
+            "english": "⭐ Wishlist"
+        
+        },
+    
+        "account":{
+            "english": "👤 Account"
+        
+        },
+    
+        "switch":{
+            "english": "🔃 Switch"
+        
+        },
+    
+        "settings":{
+            "english": "⚙️ Settings"
+        
+        },
+    
+        "help":{
+            "english": "⁉️ Help"
+        
+        },
+    
+        "support":{ 
+            "english": "🎁 Support"
+        
+        },
+    
+        "donate":{ 
+            "english": "☕ Donate"
+        
+        },
+    
+        "joinChannel": {
+            "english": "📢 Channel"
+        },
+    
+        "joinDiscussion": {
+            "english": "🗣️ Group Chat"
+        },
+    
+        "youtube": {
+            "english": "📺 YouTube"
+        },
+    
+        "followOnGithub": {
+            "english": "👨‍💻 Follow on GitHub"
+        },
+    
+        "verify": {
+            "english": "✅ Verify"
+        },
+    
+        "yes": {
+            "english": "✅ Yes"
+        },
+    
+        "no": {
+            "english": "❌ No"
+        },
+    
+        "backBtn": {
+            "english": "🔙 Back"
+        }
+    }
+}

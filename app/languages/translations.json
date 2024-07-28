@@ -488,7 +488,7 @@
 
         },
 
-        "activeTorrents":{
+        "active":{
             "english": "⌛ Active Torrents"
 
         },

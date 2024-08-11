@@ -141,3 +141,6 @@ logs
 *.sqlite3
 *.sqlite
 *.db
+
+# Configs
+.env

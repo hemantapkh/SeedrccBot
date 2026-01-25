@@ -53,9 +53,9 @@ def render_download_menu(active_downloads, translator: Translator) -> ViewRespon
     buttons = []
     for download in active_downloads:
         button_text = (
-            f"{download.name[:30]}... ({int(download.progress)}%)"
+            f"{download.name[:30]}... ({int(float(download.progress))}%)"
             if len(download.name) > 30
-            else f"{download.name} ({int(download.progress)}%)"
+            else f"{download.name} ({int(float(download.progress))}%)"
         )
         buttons.append([Button.inline(button_text, f"active_{download.id}".encode())])
     return ViewResponse(message=message.strip(), buttons=buttons)

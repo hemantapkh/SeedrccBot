@@ -11,7 +11,7 @@ keywords = ["telegram", "bot", "seedrcc"]
 
 dependencies = [
   "cryptg>=0.5.2",
-  "cryptography>=46.0.3",
+  "cryptography>=46.0.7",
   "pydantic>=2.12.5",
   "pydantic-settings>=2.12.0",
   "python-dotenv>=1.2.1",
